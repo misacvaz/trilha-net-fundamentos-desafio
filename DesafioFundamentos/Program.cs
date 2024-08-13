@@ -48,12 +48,13 @@ while (exibirMenu)
             break;
 
         default:
-            Console.WriteLine("Opção inválida");
+            Console.WriteLine("Opção inválida \n");
             break;
+            
     }
 
-    Console.WriteLine("Pressione uma tecla para continuar");
+    Console.WriteLine(" \n Pressione uma tecla para continuar \n ");
     Console.ReadLine();
 }
 
-Console.WriteLine("O programa se encerrou");
+Console.WriteLine("O programa se encerrou \n");
